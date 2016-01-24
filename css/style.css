@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+hgroup {
+	font-family: Raleway, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+h1 {
+	text-transform: uppercase;
+}
+h2 {
+	text-transform: lowercase;
+}
+body {
+	background: #333;
+}
+.page {
+	width: 800px;
+	background: white;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.topbar {
+	background: #121212;
+	font-family: Raleway, sans-serif;
+	text-transform: uppercase;
+	font-size: 80%;
+	margin: -30px -30px 30px -30px;
+}
+.topbar ul {
+	list-style: none;
+}
+.topbar li {
+	display: inline-block;
+	padding: 13px;
+}
+.topbar .current {
+	background: #333;
+}
+.topbar a {
+	color: #dddddd;
+	text-decoration: none;
+}
+
+.hero-img {
+	width: 100%;
+	position: absolute;
+	margin: -30px -30px 30px -30px;
+	z-index: 0;
+}
+.title-box {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	width: 400px;
+	border: 1px solid white;
+	left: 60px;
+	top: 160px;
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 0px #2AAEC3;
+
+}
+.title-box h1 {
+	font-size: 2.8rem; /* 1rem = 1em = 100% = 16px */
+	margin-bottom: 30px;
+	color: #F3F5C3;
+	overflow: hidden;
+}
+.title-box h1 span {
+	color: #2AAEC3;
+}
+.title-box h2 {
+	font-size: 2rem;
+	color: #eaeaea;
+}
